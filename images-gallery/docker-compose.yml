@@ -34,3 +34,5 @@ service:
       ME_CONFIG_MONGODB_ADMINPASSWORD: insighttech
     depends_on: 
       - mongo  
+volumes:
+  mongodb_data:
